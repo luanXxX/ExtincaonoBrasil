@@ -1,0 +1,421 @@
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <TextView
+            android:id="@+id/cabecalho"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="@string/Listadeanimais"
+            style="@style/texto1"
+            />
+
+        <TextView
+            android:id="@+id/animal1"
+            android:layout_below="@id/cabecalho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal1"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal1"
+            android:layout_below="@id/animal1"
+            android:padding="5dp"
+            style="@style/sobreanimal"
+            />
+        <TextView
+            android:id="@+id/animal2"
+            android:layout_below="@id/sobreanimal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal2"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal2"
+            android:layout_below="@id/animal2"
+            android:padding="5dp"
+            style="@style/sobreanimal"
+            />
+        <TextView
+            android:id="@+id/animal3"
+            android:layout_below="@id/sobreanimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal3"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal3"
+            android:layout_below="@id/animal3"
+            android:padding="5dp"
+            style="@style/sobreanimal"
+            />
+        <TextView
+            android:id="@+id/animal4"
+            android:layout_below="@id/sobreanimal3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal4"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal4"
+            android:layout_below="@id/animal4"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal5"
+            android:layout_below="@id/sobreanimal4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal5"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal5"
+            android:layout_below="@id/animal5"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal6"
+            android:layout_below="@id/sobreanimal5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal6"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal6"
+            android:layout_below="@id/animal6"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+
+        <TextView
+            android:id="@+id/animal7"
+            android:layout_below="@id/sobreanimal6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal7"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal7"
+            android:layout_below="@id/animal7"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal8"
+            android:layout_below="@id/sobreanimal7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal8"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal8"
+            android:layout_below="@id/animal8"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal9"
+            android:layout_below="@id/sobreanimal8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal9"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal9"
+            android:layout_below="@id/animal9"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal10"
+            android:layout_below="@id/sobreanimal9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal10"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal10"
+            android:layout_below="@id/animal10"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal11"
+            android:layout_below="@id/sobreanimal10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal11"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal11"
+            android:layout_below="@id/animal11"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal12"
+            android:layout_below="@id/sobreanimal11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal12"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal12"
+            android:layout_below="@id/animal12"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <TextView
+            android:id="@+id/animal13"
+            android:layout_below="@id/sobreanimal12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal13"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal13"
+            android:layout_below="@id/animal13"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal14"
+            android:layout_below="@id/sobreanimal13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal14"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal14"
+            android:layout_below="@id/animal14"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+        -- aki
+        <TextView
+            android:id="@+id/animal15"
+            android:layout_below="@id/sobreanimal14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal15"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal15"
+            android:layout_below="@id/animal15"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal16"
+            android:layout_below="@id/sobreanimal15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal16"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal16"
+            android:layout_below="@id/animal16"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal17"
+            android:layout_below="@id/sobreanimal16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal17"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal17"
+            android:layout_below="@id/animal17"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal18"
+            android:layout_below="@id/sobreanimal17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal18"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal18"
+            android:layout_below="@id/animal17"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal19"
+            android:layout_below="@id/sobreanimal18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal19"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal19"
+            android:layout_below="@id/animal19"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        -- aki
+        <TextView
+            android:id="@+id/animal20"
+            android:layout_below="@id/sobreanimal19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/animal20"
+            style="@style/animal"/>
+
+        <TextView
+            android:id="@+id/sobreanimal20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobreanimal20"
+            android:layout_below="@id/animal20"
+            android:padding="5dp"
+            style="@style/sobreanimal" />
+
+        <Button
+            android:onClick="carac"
+            android:id="@+id/botaoimg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoiinicioil1"
+            android:layout_below="@id/animal20"
+            style="@style/animal"
+            />
+        <Button
+            android:onClick="inicio"
+            android:id="@+id/botaoimg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoimg2"
+            android:layout_below="@id/botaoimg1"
+            style="@style/animal"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>

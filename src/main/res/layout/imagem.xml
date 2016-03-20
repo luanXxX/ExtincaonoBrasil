@@ -1,0 +1,61 @@
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cabecalhoImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text="Animais em extinção por região"
+            style="@style/texto1"
+            />
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_marginTop="40dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/animais2"
+            android:scaleType="centerCrop"
+            />
+        <Button
+            android:onClick="carac"
+            android:id="@+id/botaoimg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoimg1"
+            android:layout_below="@id/imagem"
+            style="@style/animal"
+            />
+        <Button
+            android:onClick="inicio"
+            android:id="@+id/botaoimg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoimg2"
+            android:layout_below="@id/botaoimg1"
+            style="@style/animal"
+            />
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>

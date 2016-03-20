@@ -1,0 +1,64 @@
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <TextView
+
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:id="@+id/cabecalhoInicio"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/animaibr"
+            style="@style/animal"
+            />
+
+        <TextView
+            android:paddingTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/opc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/opc"
+            style="@style/texto1"
+            android:layout_below="@id/cabecalhoInicio"
+            />
+
+        <Button
+            android:onClick="mapa"
+            android:id="@+id/botaoinicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoiinicioil1"
+            android:layout_below="@id/opc"
+            style="@style/animal"/>
+        <Button
+            android:onClick="carac"
+            android:id="@+id/botaoinicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/botaoiinicioil2"
+            android:layout_below="@id/botaoinicio1"
+            style="@style/animal"/>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>

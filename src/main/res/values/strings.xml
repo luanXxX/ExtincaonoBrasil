@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Animais SOS</string>
+    <string name="Listadeanimais">Lista de animais em extinção</string>
+    <string name="animal1">Onça-Pintada</string>
+    <string name="sobreanimal1">Nome científico: Panthera onca\nPeso: 56 – 96 kg \nTamanho: 63 – 76 cm\nExpectativa de Vida: 12 – 15 anos</string>
+    <string name="animal2">Cervo-do-Pantanal</string>
+    <string name="sobreanimal2">Nome cientifico: Blastocerus dichotomus\nPeso: 100 a 150 kg\nTamanho: 1,2 m - 1,9 m\nExpectativa de Vida: De 10 a 30 anos</string>
+    <string name="animal3">Arara-Azul</string>
+    <string name="sobreanimal3">Nome cientifico: Anodorhynchus hyacinthinus\nPeso: de 3 a  5 kg\nTamanho: 1 m\nExpectativa de vida: Aproximadamente 50 anos</string>
+    <string name="animal4">Peixe-Boi</string>
+    <string name="sobreanimal4">Nome científico: Trichechus\nPeso: 400 – 700 kg\nTamanho 2 m - 4 m (Adulto)\nExpectativa de vida: Aproximadamente 60 anos</string>
+    <string name="animal5">Surucucu</string>
+    <string name="sobreanimal5">Nome científico:Lachesis muta\nPeso: Aproximadamente 10 kg\nTamanho: 2 m - 4,5\nExpectativa de vida: 10 - 20 anos</string>
+    <string name="animal6">Macaco-Aranha</string>
+    <string name="sobreanimal6">Nome cientifico: Ateles paniscus\nPeso: 6 a 8 Kg\nTamanho:50,8 cm a 90 cm\nExpectativa de vida : 33 anos </string>
+    <string name="animal7">Flamingo</string>
+    <string name="sobreanimal7">Nome científico : Phoenicopterus ruber L\nPeso: Aproximadamente 1,8 Kg\nTamanho 90 cm a 1,5 m \n Expectativa de vida: 30 anos</string>
+    <string name="animal8">Ararinha-azul</string>
+    <string name="sobreanimal8">Nome científico: Cyanopsitta spixii\nPeso: 296 a 400 g\nTamanho: 55 a 57 cm\nExpextativa de vida: 50 anos</string>
+    <string name="animal9">Urubú-rei</string>
+    <string name="sobreanimal9">Nome científico: Sarcoramphus papa\nPeso: 3 a 5 kg\nTamanho: 71 a 81 cm\nExpectativa de vida: 30 anos</string>
+    <string name="animal10">Tatú Canastra</string>
+    <string name="sobreanimal10">Nome científico: Priodontes maximus\nPeso: 28 – 32 kg\nTamanho: Aproximademente 1m\nExpectativa de vida: 15 anos</string>
+    <string name="animal11">Tamanduá-bandeira</string>
+    <string name="sobreanimal11">Nome científico: Myrmecophaga tridactyla\nPeso: 33 – 41 kg\nTamanho: 1,8 m e 2,1 m\nExpectativa de vida: 16 anos</string>
+    <string name="animal12">Jabuti</string>
+    <string name="sobreanimal12">Nome científico: Chelonoidis carbonaria\nPeso:6 a 12 kg\nTamanho: 40 a 50cm\nExpectativa: 80 anos </string>
+    <string name="animal13">Jacaré-de-papo-amarelo</string>
+    <string name="sobreanimal13">Nome científico: Caiman latirostris\nPeso: 70 kg\nTamanho: 3,5 - 5 m\nExpectativa de vida:  50 anos</string>
+    <string name="animal14">Mico-leão-dourado</string>
+    <string name="sobreanimal14">Nome científico: Leontopithecus rosalia\nPeso: 620 g\nTamanho: 26 cm\nExpectativa de vida: 15 anos</string>
+    <string name="animal15">Preguiça-de-coleira</string>
+    <string name="sobreanimal15">Nome científico: Bradypus torquatus\nPeso:4,5 – 10 kg\nComprimento: 70 a 90 cm\nExpectativa de vida: 30 a 40 anos</string>
+    <string name="animal16">Mico-leão-de-cara-dourada</string>
+    <string name="sobreanimal16">Nome científico: Leontopithecus chrysomelas\nPeso: Peso: 600 gramas\nTamanho: Comprimento: Aproximadamente 26 cm - 37cm\nExpectativa de vida : 15 anos</string>
+    <string name="animal17">Falcão-de-peito-laranja</string>
+    <string name="sobreanimal17">Nome científico: Falco deiroleucus\nPeso: 338 - 340 g\nTamanho: 33 - 40 cm\nExpectativa de vida: 25 anos</string>
+    <string name="animal18">Lobo guará</string>
+    <string name="sobreanimal18">Nome científico: Chrysocyon brachyurus\nPeso: de 20 a 25 kg\nTamanho: 70 cm\nExpectativa de vida: 20 anos</string>
+    <string name="animal19">Anta</string>
+    <string name="sobreanimal19">Nome científico: Tapirus\nPeso: 250 kg\nTamanho: 100 cm\nExpectativa de vida: 25 – 30 anos</string>
+    <string name="animal20">Mico-leão-preto</string>
+    <string name="sobreanimal20">Nome científico: Leontopithecus chrysopygus\nPeso: 300 e 700 g\nTamanho: 20 - 33,5 cm\nExpectatica de vida: 20 anos</string>
+    <string name="textobotao">Lista de animais brasileiros</string>
+    <string name="botaoimg1">características</string>
+    <string name="botaoimg2">Início</string>
+    <string name="botaoiinicioil1">Mapa da extinção</string>
+    <string name="botaoiinicioil2">Lista de animais e características</string>
+    <string name="animaibr">Animais em extinção no Brasil</string>
+    <string name="opc">Escolha uma das opções abaixo : </string>
+
+
+
+</resources>
